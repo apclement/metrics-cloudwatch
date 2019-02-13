@@ -94,7 +94,7 @@ class DemuxedKey {
             }
             for (Iterable<Dimension> dimensionSet : withDimensionChain) {
                 data.add(datumSpecification.apply(
-                        new MetricDatum().withMetricName(name).withDimensions(Lists.newArrayList(dimensionSet))
+                        new MetricDatum().withMetricName(name).withDimensions(Lists.newArrayList(dimensionSet)).withStorageResolution(1)
                 ));
             }
         }

@@ -64,8 +64,8 @@ repositories {
 }
 
 dependencies {
-    compile 'com.amazonaws:aws-java-sdk-cloudwatch:1.10.47'
-    compile 'io.dropwizard.metrics:metrics-core:3.1.2'
+    compile 'com.amazonaws:aws-java-sdk-cloudwatch:1.11.271'
+    compile 'io.dropwizard.metrics:metrics-core:3.1.5'
 
     compile 'org.apache.commons:commons-lang3:3.4'
     compile 'com.google.guava:guava:19.0'
